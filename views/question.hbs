@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./javascript/question.js"></script>
+    <title>Question Page</title>
+</head>
+<body>
+    <div id="yearDept">
+        <h3>Select the year...</h3>
+        <!-- Select Year dropdown -->
+        <select id="yearSelect">
+            <option value="1">I</option>
+            <option value="2">II</option>
+            <option value="3">III</option>
+            <option value="4">IV</option>
+        </select>
+        <select id="deptSelect">
+            <option value="cse">CSE</option>
+            <option value="it">IT</option>
+            <option value="eee">EEE</option>
+            <option value="ece">ECE</option>
+        </select>
+        <button onclick="question.getSubjects()">Next</button>
+    </div>
+    <div id="showSubjects" class="dN">
+        
+    </div>
+</body>
+</html>

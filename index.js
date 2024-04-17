@@ -68,7 +68,11 @@ app.get("/postgresCheck",async (req,res)=>{
 })
 
 app.get("/faculty", async(req,res)=>{
-    res.render('question');
+    res.render('quizInfo');
+})
+
+app.get("/questions", async(req,res)=>{
+    res.render('questions');
 })
 
 app.get("/getSubjects",async(req,res)=>{

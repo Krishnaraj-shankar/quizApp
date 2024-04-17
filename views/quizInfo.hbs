@@ -3,8 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="./javascript/question.js"></script>
     <title>Question Page</title>
+    <link href="./css/quizInfo.css">
+    <style>
+        .dN{
+            display: none;
+        }
+    </style>
 </head>
 <body>
     <div id="yearDept">
@@ -24,8 +29,7 @@
         </select>
         <button onclick="question.getSubjects()">Next</button>
     </div>
-    <div id="showSubjects" class="dN">
-        
-    </div>
+    <div id="showSubjects" class="dN"></div>
+    <script src="./javascript/quizInfo.js"></script>
 </body>
 </html>
